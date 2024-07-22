@@ -1,0 +1,77 @@
+body{
+    background-color: aqua;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 70px;
+  background-color: blue; 
+}
+nav ul li{
+  padding:0 12px;
+}
+.brand img{
+  height:63px;
+  padding: 0 4px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container{
+  min-height: 70vh;
+  background-color:royalblue;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  width: 70%;
+  padding: 23px;
+  border-radius: 12px;
+  margin: 12px auto;
+  background-image: url('image3.jpg');
+  background-size:auto;
+}
+.bottom{
+  position: sticky;
+  height: 130px;
+  background-color: burlywood;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 13px 0px;
+}
+.icons{
+  margin-top:auto;
+}
+.icons i{
+  cursor: pointer;
+}
+#MyprogressBar{
+  width: 100vw;
+  text-align: center;
+} 
+.songItem{
+height: 80px;
+display: flex;
+width: 80%;
+background-color: rgb(9, 4, 32);
+color: aliceblue;
+margin: 15px 2px;
+}
+.songItem img{
+
+}
