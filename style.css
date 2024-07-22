@@ -61,20 +61,41 @@ nav ul li{
   cursor: pointer;
 }
 #MyprogressBar{
-  width: 100vw;
+  width: 90vw;
   text-align: center;
+  cursor: pointer;
 } 
 .songItem{
-height: 80px;
+height: 60px;
 display: flex;
-width: 80%;
+
 background-color: rgb(9, 4, 32);
 color: aliceblue;
 margin: 15px 0;
 justify-content: space-between;
 align-items: center;
+border-radius: 10px;
 }
 .songItem img{
-width: 100px;
+width: 40px;
 margin: 0 23px;
+border-radius: 23px;
+}
+.timestamp{
+  margin: 0 34px;
+}
+.timestamp i{
+  cursor: pointer;
+}
+.songitemcontainer{
+  margin-top: 86px;
+}
+.songinfo{
+  left: 5vw;
+  position: absolute;
+  font-family: "Nunito", sans-serif;
+}
+.songinfo img{
+  opacity: 0;
+  transition: opacity is ease-in;
 }
