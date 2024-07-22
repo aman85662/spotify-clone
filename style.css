@@ -70,8 +70,11 @@ display: flex;
 width: 80%;
 background-color: rgb(9, 4, 32);
 color: aliceblue;
-margin: 15px 2px;
+margin: 15px 0;
+justify-content: space-between;
+align-items: center;
 }
 .songItem img{
-
+width: 100px;
+margin: 0 23px;
 }
